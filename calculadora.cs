@@ -12,7 +12,9 @@ public class calculadora
     }
     */
 
-    public double RESULTADO{ get => dato;}
+    public double RESULTADO{
+        get => dato;
+        }
     
     public void Sumar(double termino){
         dato = dato+termino;
@@ -22,6 +24,7 @@ public class calculadora
     }
     public void Multiplicar(double termino){
         dato= dato * termino;
+        
     }
     public void Dividir(double termino){
         dato= dato / termino;
@@ -29,7 +32,6 @@ public class calculadora
     public void Limpiar(){
         dato = 0;
     }
-
 
 }
 

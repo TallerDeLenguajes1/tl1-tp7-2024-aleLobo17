@@ -2,9 +2,20 @@
 using EspacioCalculadora;
 
 Console.WriteLine("Hello, World!");
+
 calculadora micalculadora = new calculadora();
 
 micalculadora.Sumar(10);
-micalculadora.Restar(5);
-micalculadora.Multiplicar(2);
+Console.WriteLine(micalculadora.RESULTADO);
+micalculadora.Multiplicar(3);
+Console.WriteLine(micalculadora.RESULTADO);
+micalculadora.Restar(2);
+Console.WriteLine(micalculadora.RESULTADO);
+micalculadora.Dividir(2);
+Console.WriteLine(micalculadora.RESULTADO);
+
+micalculadora.Limpiar();
+Console.WriteLine(micalculadora.RESULTADO);
+
+
 
