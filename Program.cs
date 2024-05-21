@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using EspacioCalculadora;
+using EspacioCalculadora;//es uimportante para poder usar las cosas de calculadora.cs
 
 Console.WriteLine("Hello, World!");
 

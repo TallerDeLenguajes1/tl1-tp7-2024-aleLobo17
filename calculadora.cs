@@ -12,9 +12,14 @@ public class calculadora
     }
     */
 
-    public double RESULTADO{
-        get => dato;
+    public double RESULTADO{ get => dato;}
+
+    //dos opciones para hacer get de resultado
+    public double RESULTADO2{
+        get{
+            return dato;
         }
+    }
     
     public void Sumar(double termino){
         dato = dato+termino;
